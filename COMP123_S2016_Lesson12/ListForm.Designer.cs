@@ -103,6 +103,7 @@
             this.ProvinceTextBox.ReadOnly = true;
             this.ProvinceTextBox.Size = new System.Drawing.Size(225, 22);
             this.ProvinceTextBox.TabIndex = 3;
+            this.ProvinceTextBox.TextChanged += new System.EventHandler(this.ProvinceTextBox_TextChanged);
             // 
             // ListForm
             // 
@@ -123,11 +124,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button NextButton;
         private System.Windows.Forms.GroupBox ListViewBox;
         private System.Windows.Forms.ListBox ProvinceListBox;
         private System.Windows.Forms.Label ProvinceLabel;
         private System.Windows.Forms.TextBox ProvinceTextBox;
+        public System.Windows.Forms.Button NextButton;
     }
 }
 
