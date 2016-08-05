@@ -16,5 +16,15 @@ namespace COMP123_S2016_Lesson12
         {
             InitializeComponent();
         }
+
+        private void ProvinceListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ProvinceTextBox.Text = ProvinceListBox.SelectedItem.ToString();
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
