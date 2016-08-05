@@ -17,5 +17,11 @@ namespace COMP123_S2016_Lesson12
         {
             InitializeComponent();
         }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            this.listForm.Show();
+                this.Close();
+        }
     }
 }
