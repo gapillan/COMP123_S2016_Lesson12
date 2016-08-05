@@ -23,5 +23,10 @@ namespace COMP123_S2016_Lesson12
             this.listForm.Show();
                 this.Close();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

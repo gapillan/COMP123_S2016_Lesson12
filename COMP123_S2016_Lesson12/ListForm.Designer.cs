@@ -127,8 +127,8 @@
         private System.Windows.Forms.GroupBox ListViewBox;
         private System.Windows.Forms.ListBox ProvinceListBox;
         private System.Windows.Forms.Label ProvinceLabel;
-        private System.Windows.Forms.TextBox ProvinceTextBox;
         public System.Windows.Forms.Button NextButton;
+        public System.Windows.Forms.TextBox ProvinceTextBox;
     }
 }
 
