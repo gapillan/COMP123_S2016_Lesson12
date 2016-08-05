@@ -114,6 +114,7 @@
             this.Controls.Add(this.ProvinceLabel);
             this.Controls.Add(this.ListViewBox);
             this.Controls.Add(this.NextButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "ListForm";
             this.Text = "Form1";
             this.ListViewBox.ResumeLayout(false);

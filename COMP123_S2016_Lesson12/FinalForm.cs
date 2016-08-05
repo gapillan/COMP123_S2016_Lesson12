@@ -32,8 +32,16 @@ namespace COMP123_S2016_Lesson12
             // show dialog 
             aboutBox.ShowDialog();
 
+        }
 
+        private void FinalForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.listForm.Show();
+        }
 
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
