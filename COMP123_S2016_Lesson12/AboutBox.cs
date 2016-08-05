@@ -101,5 +101,10 @@ namespace COMP123_S2016_Lesson12
             }
         }
         #endregion
+
+        private void labelProductName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

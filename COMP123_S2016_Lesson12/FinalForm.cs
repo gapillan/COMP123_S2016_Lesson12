@@ -26,6 +26,13 @@ namespace COMP123_S2016_Lesson12
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // instantiate an object of the AboutBox type
+            AboutBox aboutBox = new AboutBox();
+
+            // show dialog 
+            aboutBox.ShowDialog();
+
+
 
         }
     }
